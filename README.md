@@ -4,9 +4,7 @@ End users can restrict windows to dock on specific sides of the target dock wind
 ## Inner Dock Ability
 The [SetDockAbility](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Tools.DockingManager.html#Syncfusion_Windows_Forms_Tools_DockingManager_SetDockAbility_System_Windows_Forms_Control_Syncfusion_Windows_Forms_Tools_DockAbility_) function helps to get or set the DockAbility of docked control using another child window that can be docked inside the docked control. The [GetDockAbility](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Tools.DockingManager.html#Syncfusion_Windows_Forms_Tools_DockingManager_GetDockAbility_System_Windows_Forms_Control_) provides the dock ability information of the docked panel.
 
-{% tabs %}
-
-{% highlight C# %}
+# C#
 
 //Getting the Dock Ability
 
@@ -15,8 +13,6 @@ this.dockingManager1.GetDockAbility(this.panel1);
 //Setting the Dock Ability
 
 this.dockingManager1.SetDockAbility(this.panel1, "Top");
-
-{% endhighlight %}
 
 ![Restrict Window docking side using DockingPreviewEvent](Docking_PreviewDockingHints/Images/winforms-docking-restrict-docking.png)
 
