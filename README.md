@@ -22,6 +22,6 @@ The SetOuterDockAbility function helps to restrict the DockAbility of child wind
 
 # C#
 
-this.dockingManager1.SetOuterDockAbility(child, Syncfusion.Windows.Forms.Tools.DockAbility.Top | Syncfusion.Windows.Forms.Tools.DockAbility.Bottom);
+    this.dockingManager1.SetOuterDockAbility(child, Syncfusion.Windows.Forms.Tools.DockAbility.Top | Syncfusion.Windows.Forms.Tools.DockAbility.Bottom);
 
 ![OuterDockAblity](Docking_PreviewDockingHints/Images/Outer%20Dock%20Ablity.png)
