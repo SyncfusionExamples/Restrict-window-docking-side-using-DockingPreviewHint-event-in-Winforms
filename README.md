@@ -1,4 +1,4 @@
-# Prevent docking to specific host edges in WinForms Docking Manager
+# Restrict-window-docking-side-using-DockingPreviewHint-event-in-Winforms
 
 This sample shows how to stop docking windows to certain sides of the host form by handling Syncfusion DockingManager's PreviewDockHints event. You can selectively allow or block dock hints (Left, Top, Right, Bottom, Fill/Document) for either the outer edges of the host or inner targets, guiding users to only the positions you want.
 
